@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+public class LoginPageQa {
 
 	
 	public WebDriver driver;
@@ -17,7 +17,7 @@ public class LoginPage {
 	
 	
 	
-	public LoginPage(WebDriver driver) {
+	public LoginPageQa(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		
 		this.driver=driver;

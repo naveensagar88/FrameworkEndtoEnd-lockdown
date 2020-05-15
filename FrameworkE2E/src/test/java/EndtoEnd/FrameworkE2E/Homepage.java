@@ -8,9 +8,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import pageObjects.LandingPage;
-import pageObjects.LoginPage;
-import resources.base;
+import Pageobject.LandingPageQa;
+import Pageobject.LoginPageQa;
 import resources.base1;
 
 public class Homepage extends base1 {
@@ -32,9 +31,11 @@ public class Homepage extends base1 {
 
 			// creating object to that class and invoke methods of it
 			driver.get(prop.getProperty("url"));
-			LandingPage l=new LandingPage(driver);
+			LandingPageQa l=new LandingPageQa(driver);
 			l.getLogin().click(); //driver.findElement(By.css()
-			LoginPage lp=new LoginPage(driver);
+			l.popupnewsletter().click();
+			
+			LoginPageQa lp=new LoginPageQa(driver);
 			lp.getEmail().sendKeys(Username);
 			lp.getPassword().sendKeys(Password);
 

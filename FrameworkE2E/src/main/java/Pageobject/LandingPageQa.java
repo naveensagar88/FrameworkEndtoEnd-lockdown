@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LandingPage {
+public class LandingPageQa {
 
 	
 	public WebDriver driver;
@@ -12,19 +12,17 @@ public class LandingPage {
 	By signin=By.cssSelector("a[href*='sign_in']");
 	By title=By.cssSelector(".text-center>h2");
 	By NavBar=By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
+	By popup=By.xpath("//button[contains(text(),'NO THANKS')]");
 	
 	
 	
 	
-	
-	public LandingPage(WebDriver driver) {
+	public LandingPageQa(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		
 		this.driver=driver;
 		
 	}
-
-
 
 
 	public WebElement getLogin()
@@ -38,6 +36,10 @@ public class LandingPage {
 	public WebElement getTitle()
 	{
 		return driver.findElement(title);
+	}
+	public WebElement popupnewsletter()
+	{
+		return driver.findElement(popup);
 	}
 	
 	

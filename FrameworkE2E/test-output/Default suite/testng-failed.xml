@@ -6,7 +6,7 @@
       <class name="EndtoEnd.FrameworkE2E.Homepage">
         <methods>
           <include name="initialize"/>
-          <include name="basePageNavigation" invocation-numbers="1"/>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- EndtoEnd.FrameworkE2E.Homepage -->
