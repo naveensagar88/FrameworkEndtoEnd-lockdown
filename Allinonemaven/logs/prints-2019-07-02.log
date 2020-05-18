@@ -1,0 +1,5 @@
+13:31:25.220 [main] INFO  E2EAutomation.Allinonemaven.Home - Browser initialize and url activated for home page
+13:31:41.222 [main] INFO  E2EAutomation.Allinonemaven.ValidateTitle - Browser initialize and url activated
+14:13:41.980 [main] INFO  E2EAutomation.Allinonemaven.ValidateTitle - Browser initialize and url activated
+14:13:43.544 [main] INFO  E2EAutomation.Allinonemaven.ValidateTitle - Text match success
+14:13:58.951 [main] INFO  E2EAutomation.Allinonemaven.Home - Browser initialize and url activated for home page

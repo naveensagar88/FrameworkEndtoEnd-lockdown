@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="E2EAutomation.Allinonemaven.Home">
+        <methods>
+          <include name="teardown"/>
+          <include name="basepagenavigation" invocation-numbers="1"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- E2EAutomation.Allinonemaven.Home -->
+      <class name="E2EAutomation.Allinonemaven.ValidateTitle">
+        <methods>
+          <include name="init"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2EAutomation.Allinonemaven.ValidateTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

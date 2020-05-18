@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133421" started-at="2019-07-02T08:43:08Z" finished-at="2019-07-02T08:45:22Z">
+    <groups>
+    </groups>
+    <test name="ValidateTest" duration-ms="36191" started-at="2019-07-02T08:43:08Z" finished-at="2019-07-02T08:43:45Z">
+      <class name="E2EAutomation.Allinonemaven.ValidateTitle">
+        <test-method status="PASS" signature="init()[pri:0, instance:E2EAutomation.Allinonemaven.ValidateTitle@6150c3ec]" name="init" is-config="true" duration-ms="33273" started-at="2019-07-02T14:13:08Z" finished-at="2019-07-02T14:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:E2EAutomation.Allinonemaven.ValidateTitle@6150c3ec]" name="basepagenavigation" duration-ms="1379" started-at="2019-07-02T14:13:42Z" finished-at="2019-07-02T14:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EAutomation.Allinonemaven.ValidateTitle@6150c3ec]" name="teardown" is-config="true" duration-ms="1462" started-at="2019-07-02T14:13:43Z" finished-at="2019-07-02T14:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EAutomation.Allinonemaven.ValidateTitle -->
+    </test> <!-- ValidateTest -->
+    <test name="HomeTest" duration-ms="96186" started-at="2019-07-02T08:43:45Z" finished-at="2019-07-02T08:45:21Z">
+      <class name="E2EAutomation.Allinonemaven.Home">
+        <test-method status="PASS" signature="init()[pri:0, instance:E2EAutomation.Allinonemaven.Home@4e08711f]" name="init" is-config="true" duration-ms="13534" started-at="2019-07-02T14:13:45Z" finished-at="2019-07-02T14:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EAutomation.Allinonemaven.Home@4e08711f]" name="basepagenavigation" duration-ms="43299" started-at="2019-07-02T14:13:58Z" data-provider="datainfo" finished-at="2019-07-02T14:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrictedusers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EAutomation.Allinonemaven.Home@4e08711f]" name="teardown" is-config="true" duration-ms="2874" started-at="2019-07-02T14:14:42Z" finished-at="2019-07-02T14:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:E2EAutomation.Allinonemaven.Home@4e08711f]" name="init" is-config="true" duration-ms="12355" started-at="2019-07-02T14:14:45Z" finished-at="2019-07-02T14:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EAutomation.Allinonemaven.Home@4e08711f]" name="basepagenavigation" duration-ms="23632" started-at="2019-07-02T14:14:57Z" data-provider="datainfo" finished-at="2019-07-02T14:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictedusers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[156]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2EAutomation.Allinonemaven.Home@4e08711f]" name="teardown" is-config="true" duration-ms="491" started-at="2019-07-02T14:15:21Z" finished-at="2019-07-02T14:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EAutomation.Allinonemaven.Home -->
+    </test> <!-- HomeTest -->
+    <test name="AppTest" duration-ms="1" started-at="2019-07-02T08:45:22Z" finished-at="2019-07-02T08:45:22Z">
+      <class name="E2EAutomation.Allinonemaven.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:E2EAutomation.Allinonemaven.AppTest@367ffa75]" name="testApp" duration-ms="0" started-at="2019-07-02T14:15:22Z" finished-at="2019-07-02T14:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- E2EAutomation.Allinonemaven.AppTest -->
+    </test> <!-- AppTest -->
+  </suite> <!-- Suite -->
+</testng-results>

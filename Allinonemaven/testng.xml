@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ <listeners>
+     
+        
+         <listener class-name="E2EAutomation.Allinonemaven.listeners"/>
+         <listener class-name="Resources.ExtentReport"/>
+         
+
+ </listeners>
+ 
+  <test thread-count="5" name="ValidateTest">
+    <classes>
+      <class name="E2EAutomation.Allinonemaven.ValidateTitle"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="HomeTest">
+    <classes>
+     
+      <class name="E2EAutomation.Allinonemaven.Home"/>
+     
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="AppTest">
+    <classes>
+    
+      <class name="E2EAutomation.Allinonemaven.AppTest"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
