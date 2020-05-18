@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="E2EAutomation.Allinonemaven.listeners"/>
+    <listener class-name="Resources.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="ValidateTest(failed)">
+    <classes>
+      <class name="E2EAutomation.Allinonemaven.ValidateTitle">
+        <methods>
+          <include name="init"/>
+          <include name="basepagenavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2EAutomation.Allinonemaven.ValidateTitle -->
+    </classes>
+  </test> <!-- ValidateTest(failed) -->
+  <test thread-count="5" name="HomeTest(failed)">
     <classes>
       <class name="E2EAutomation.Allinonemaven.Home">
         <methods>
@@ -11,5 +26,5 @@
         </methods>
       </class> <!-- E2EAutomation.Allinonemaven.Home -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- HomeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

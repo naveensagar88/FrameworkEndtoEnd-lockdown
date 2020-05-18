@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="E2EAutomation.Allinonemaven.listeners"/>
+    <listener class-name="Resources.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="ValidateTest(failed)">
     <classes>
-      <class name="E2EAutomation.Allinonemaven.Home">
-        <methods>
-          <include name="teardown"/>
-          <include name="basepagenavigation" invocation-numbers="1"/>
-          <include name="init"/>
-        </methods>
-      </class> <!-- E2EAutomation.Allinonemaven.Home -->
       <class name="E2EAutomation.Allinonemaven.ValidateTitle">
         <methods>
           <include name="init"/>
+          <include name="basepagenavigation"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- E2EAutomation.Allinonemaven.ValidateTitle -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ValidateTest(failed) -->
+  <test thread-count="5" name="HomeTest(failed)">
+    <classes>
+      <class name="E2EAutomation.Allinonemaven.Home">
+        <methods>
+          <include name="teardown"/>
+          <include name="basepagenavigation"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- E2EAutomation.Allinonemaven.Home -->
+    </classes>
+  </test> <!-- HomeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

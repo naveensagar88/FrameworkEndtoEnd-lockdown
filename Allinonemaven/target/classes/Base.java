@@ -25,14 +25,14 @@ public class Base {
 
 				
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\naveen.n\\eclipse-workspace-sagar\\Allinonemaven\\src\\main\\java\\Resources\\info.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\sagar\\git\\FrameworkEndtoEnd-lockdown\\Allinonemaven\\src\\main\\java\\Resources\\info.properties");
 		prop.load(fis);
 		String browsername=prop.getProperty("browser");
 		System.out.println(browsername);
 		
 		if(browsername.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("Webdriver.chrome.driver", "C:\\Users\\naveen.n\\Downloads\\chromedriver.exe");
+			System.setProperty("Webdriver.chrome.driver", "C:\\chromedriver.exe");
 			 driver = new ChromeDriver();
 			 //By signin= By.xpath("//a[@href='http://qaclickacademy.usefedora.com/sign_in']");
 			
